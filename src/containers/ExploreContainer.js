@@ -78,7 +78,7 @@ class ExploreContainer extends Component {
           style={styles.scrollview}
           contentContainerStyle={styles.scrollViewContent}
         >
-          <Text style={styles.heading}>Explore Rehms</Text>
+          <Text style={styles.heading}>Explore</Text>
           <View style={styles.categories}>
             <Categories categories={categoriesList} />
           </View>

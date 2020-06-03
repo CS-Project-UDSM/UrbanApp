@@ -114,7 +114,7 @@ class CreateList extends Component {
                 <View>
                   <Text style={styles.privacyOptionTitle}>Public</Text>
                   <Text style={styles.privacyOptionDescription}>
-                    Visible to everyone and included on your public Rehms
+                    Visible to everyone and included on your public HotBricks
                     profile.
                   </Text>
                   <View style={styles.privacyRadioInput}>
