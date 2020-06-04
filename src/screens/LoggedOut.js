@@ -47,7 +47,7 @@ export default class LoggedOut extends Component {
       <ScrollView style={styles.wrapper}>
         <View style={styles.welcomeWrapper}>
           <Image source={udsmLogo} style={styles.logo} />
-          <Text style={styles.welcomeText}>Welcome to HotBricks.</Text>
+          <Text style={styles.welcomeText}>Welcome to Urban.</Text>
           <RoundedButton
             text="Continue with Facebook"
             textColor={colors.green01}
@@ -78,7 +78,7 @@ export default class LoggedOut extends Component {
               By tapping Continue, Create Account or More
             </Text>
             <Text style={styles.termsText}>{" options,"}</Text>
-            <Text style={styles.termsText}>{"I agree to HotBricks' "}</Text>
+            <Text style={styles.termsText}>{"I agree to Urban' "}</Text>
             <TouchableHighlight style={styles.linkButton}>
               <Text style={styles.termsText}>Terms of Service</Text>
             </TouchableHighlight>
